@@ -5,7 +5,6 @@ If the product contains the special __gift tag, we prevent it to be completely a
 {%- if product.tags contains '__gift' -%}
   <script>
     window.location.href = '/';
-    alert(e);
   </script>
 {%- else -%}
   {% section 'product-template' %}
